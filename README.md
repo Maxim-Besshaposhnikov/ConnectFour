@@ -1,6 +1,7 @@
 # ConnectFour
 Connect Four Game
 
+    
     The program I decided to make is Connect 4. Connect 4 is a well known game in which players take turns placing a token into a column of a board and you win by having 4 tokens of the same colour line up horizontally, vertically, or diagonally. This program uses a simple GUI to display the game with a simple to use design. To place a token, you simply press a button above the column that you would like to place your token into. If the game is over or you simply want to reset the game, there is a button you can click to wipe the board and restart the game. Below the restart button, there are two buttons. One of them is to save the state of the current game, and another is to load that saved state of the game (this uses a database) The bottom left of the GUI displays the amount of games won by each colour during the current session, and the total for all sessions (this also uses a database). Some of the things I learned to do on my own for this project are changing the background colour of the text frames using code (example: Line 14, ConnectFour.java), disabling buttons using code (example: Line 24, ConnectFour.java), using a separate java class for the main logic of a given program, and using a double array to create a 2d structure as a playfield (example: Line 24, ConectFourGame.Java).
 
 Testing: 
