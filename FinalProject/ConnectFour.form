@@ -1,0 +1,620 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JToggleButton" name="jToggleButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jToggleButton1"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="294" max="-2" attributes="0"/>
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="buttonColumn1" min="-2" pref="70" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="txt0_0" min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="txt1_0" alignment="1" min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="txt2_0" alignment="1" min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="txt3_0" alignment="1" min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="txt4_0" alignment="1" min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="txt5_0" min="-2" pref="70" max="-2" attributes="0"/>
+                              <Component id="lblCurrentSessionTitle" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblLossesCurrent" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblRedWinsCurrentNumber" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblBlueWinsCurrent" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblBlueWinsCurrentNumber" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblAllSessionsTitle" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblWinsAll" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblBlueWinsAll" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="lblLossesAll" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="lblRedWinsAll" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="txt2_1" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt2_2" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt2_3" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt2_4" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt2_5" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt2_6" min="-2" pref="70" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="txt1_1" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt1_2" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt1_3" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt1_4" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt1_5" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt1_6" min="-2" pref="70" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="txt4_1" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt4_2" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt4_3" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt4_4" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt4_5" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt4_6" min="-2" pref="70" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="txt3_1" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt3_2" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt3_3" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt3_4" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt3_5" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt3_6" min="-2" pref="70" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="txt5_1" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txt5_2" min="-2" pref="70" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="lblTurn" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="txt5_3" min="-2" pref="70" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="243" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="buttonSaveState" min="-2" pref="102" max="-2" attributes="0"/>
+                                  <Component id="buttonLoad" min="-2" pref="102" max="-2" attributes="0"/>
+                                  <Component id="buttonRestart" min="-2" pref="102" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="txt5_4" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txt5_5" min="-2" pref="70" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Component id="txt5_6" min="-2" pref="70" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Component id="buttonColumn2" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="buttonColumn3" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="buttonColumn4" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="buttonColumn5" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="buttonColumn6" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="buttonColumn7" min="-2" pref="70" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <Component id="txt0_1" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txt0_2" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txt0_3" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txt0_4" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txt0_5" min="-2" pref="70" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="txt0_6" min="-2" pref="70" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Component id="lblTitle" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="buttonColumn1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonColumn7" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonColumn6" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonColumn5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonColumn4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonColumn3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="buttonColumn2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt0_0" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt0_1" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt0_2" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt0_3" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt0_4" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt0_5" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt0_6" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt1_0" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt1_1" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt1_2" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt1_3" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt1_4" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt1_5" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt1_6" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt2_0" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt2_1" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt2_2" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt2_3" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt2_4" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt2_5" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt2_6" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt3_0" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt3_1" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt3_2" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt3_3" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt3_4" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt3_5" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt3_6" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt4_0" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt4_1" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt4_2" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt4_3" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt4_4" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt4_5" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt4_6" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txt5_0" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt5_1" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt5_2" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt5_3" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt5_4" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt5_5" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+                  <Component id="txt5_6" alignment="3" min="-2" pref="70" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="lblCurrentSessionTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblBlueWinsCurrent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblBlueWinsCurrentNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblLossesCurrent" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblRedWinsCurrentNumber" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="lblAllSessionsTitle" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblWinsAll" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblBlueWinsAll" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="lblLossesAll" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="lblRedWinsAll" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="buttonRestart" min="-2" pref="35" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="buttonSaveState" min="-2" pref="35" max="-2" attributes="0"/>
+                          <Component id="lblTurn" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="buttonLoad" min="-2" pref="35" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="lblTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="36" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="CONNECT 4"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt5_0">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt4_0">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt3_0">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt2_0">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt1_0">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt0_0">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="doubleBuffered" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt5_1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt4_1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt3_1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt2_1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt1_1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt0_1">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt5_2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt4_2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt3_2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt2_2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt1_2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt0_2">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt5_3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt4_3">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt4_3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt3_3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt2_3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt1_3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt0_3">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt5_4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt4_4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt3_4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt2_4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt1_4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt0_4">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt5_5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt4_5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt3_5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt2_5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt1_5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt0_5">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt5_6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt4_6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt3_6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt2_6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt1_6">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txt0_6">
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonRestart">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Restart"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonRestartActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonSaveState">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonSaveStateActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonLoad">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Load"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonLoadActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblTurn">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Player&apos;s Turn"/>
+        <Property name="verticalAlignment" type="int" value="3"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_SerializeTo" type="java.lang.String" value="ConnectFour_lblTurn"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblCurrentSessionTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Current Session:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBlueWinsCurrent">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Blue Wins:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBlueWinsCurrentNumber">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLossesCurrent">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Red Wins:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRedWinsCurrentNumber">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblAllSessionsTitle">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="All Sessions:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblRedWinsAll">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblBlueWinsAll">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblWinsAll">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Blue Wins:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lblLossesAll">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Red Wins:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonColumn1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonColumn1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonColumn2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="2"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonColumn2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonColumn3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="3"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonColumn3ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonColumn4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="4"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonColumn4ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonColumn5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="5"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonColumn5ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonColumn6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="6"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonColumn6ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="buttonColumn7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="7"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="buttonColumn7ActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
